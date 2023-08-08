@@ -1,0 +1,99 @@
+
+
+
+<!DOCTYPE html>
+<link                                                           Owl Eye ring for Men and Boys              >
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qvice fashion</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+
+    <section id="header">
+        <a href="#"><img src="images/icon.jfif" class="logo" alt="" height="70px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+        <img class="maini" src="https://m.media-amazon.com/images/I/7156k+x2OPL._UY625_.jpg" width="100%" id="MainImg" alt="">
+        
+        <div class="small-img-group">
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/7156k+x2OPL._UY625_.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/61qu+zDXtjL._UY575_.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/71Owr05hiEL._UY575_.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/71zfKmgYPAL._UY575_.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+            </div>
+    </div>
+
+    <div class="single-pro-details">
+        <h6>Home/ Ring</h6>
+        <h4>Owl Eye ring for Men and Boys</h4>
+        <h2>₹199</h2>
+        <select>
+            <option>select</option>
+        </select>
+        <input type="number" value="1">
+        <button class="">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span>Fashion Frill Mens Jewellery Silver Ring For Boys Stainless Steel Adjustable Finger Rings for Men and Boys Girls Women Accessories Jewellery for Men Anniversary Unisex Rings</span>
+    </div>
+    </section>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
