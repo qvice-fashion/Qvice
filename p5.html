@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<link                                                            3D Cuboid Vertical Bar Necklace              >
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qvice fashion</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+
+    <section id="header">
+        <a href="#"><img src="images/icon.jfif" class="logo" alt="" height="70px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+        <img class="maini" src="https://m.media-amazon.com/images/I/41sA5tRG6fL._SY575._SX._UX._SY._UY_.jpg" width="100%" id="MainImg" alt="">
+        
+        <div class="small-img-group">
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/41sA5tRG6fL._SY575._SX._UX._SY._UY_.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/81+B7rY5yyL._SY575._SX._UX._SY._UY_.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+            </div>
+    </div>
+
+    <div class="single-pro-details">
+        <h6>Home/ Necklace</h6>
+        <h4>3D Cuboid Vertical Bar Necklace </h4>
+        <h2>₹69</h2>
+        <input type="number" value="1">
+        <button class="" onclick="window.location.href='p1-buy.html'">Buy Now</button>
+        <h4>Product Details</h4>
+        <span>Black 3D Cuboid Vertical Bar/Stick Stainless Steel Locket Pendant Necklace for Boys and Men</span>
+    </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Also In More Colour</h2>
+     <div class="pro-container">   
+                            <div class="pro" onclick="window.location.href='p5-silver.html'">
+                                <img src="https://m.media-amazon.com/images/I/41GZrUA1NZL._SY575._SX._UX._SY._UY_.jpg" alt="">
+                                <div class="des">
+                                    <span>Qvice</span>
+                                    <h5>3D Cuboid Vertical Bar Necklace silver</h5>
+                                    <h4>₹69</h4>
+                                </div>
+                                <a href=""><button class="cart">buy now</button></a>
+                                </div>
+
+                                <div class="pro" onclick="window.location.href='p5-pink.html'">
+                                    <img src="https://m.media-amazon.com/images/I/31Po2bnaRiL._UY575_.jpg" alt="">
+                                    <div class="des">
+                                        <span>Qvice</span>
+                                        <h5>Rose Gold 3D Cuboid Vertical Bar Necklace</h5>
+                                        <h4>₹109</h4>
+                                    </div>
+                                    <a href=""><button class="cart">buy now</button></a>
+                                    </div>
+
+                                    <div class="pro" onclick="window.location.href='p5-gold.html'">
+                                        <img src="https://m.media-amazon.com/images/I/81dCGU4EV-L._UY535_.jpg" alt="">
+                                        <div class="des">
+                                            <span>Qvice</span>
+                                            <h5>Gold 3D Cuboid Vertical Bar Necklace</h5>
+                                            <h4>₹109</h4>
+                                        </div>
+                                        <a href=""><button class="cart">buy now</button></a>
+                                        </div>
+
+                                        <div class="pro" onclick="window.location.href='p5-combo.html'">
+                                            <img src="https://m.media-amazon.com/images/I/61KEEx++6oL._UY535_.jpg" alt="">
+                                            <div class="des">
+                                                <span>Qvice</span>
+                                                <h5>Gold 3D Cuboid Vertical Bar Necklace</h5>
+                                                <h4>₹269</h4>
+                                            </div>
+                                            <a href=""><button class="cart">buy now</button></a>
+                                            </div>
+
+    </div>
+</section>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

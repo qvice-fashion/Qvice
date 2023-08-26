@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<link                             Combo Leather Wraps Casual Latest Trend Multi Strand Wrist Bracelets              >
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qvice fashion</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+
+    <section id="header">
+        <a href="#"><img src="images/icon.jfif" class="logo" alt="" height="70px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+        <img class="maini" src="https://m.media-amazon.com/images/I/51bizsyqH1L.jpg" width="100%" id="MainImg" alt="">
+        
+        <div class="small-img-group">
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/51bizsyqH1L.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/51JpBagYj5L.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/61-ffU3yxwL._UY575_.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="https://m.media-amazon.com/images/I/41WRvZi24NL.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+            </div>
+    </div>
+
+    <div class="single-pro-details">
+        <h6>Home/ Bracelets</h6>
+        <h4>Combo Leather Wraps Casual Multi Strand Wrist Bracelets</h4>
+        <h2>₹299</h2>
+        <input type="number" value="1">
+        <button class="" onclick="window.location.href='p1-buy.html'">Buy Now</button>
+        <h4>Product Details</h4>
+        <span>Combo Leather Wraps Casual Latest Trend Multi Strand Wrist Bracelets for Men and Women (Unisex)-----------5pcs Leather Stylish Wraps</span>
+    </div>
+    </section>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
